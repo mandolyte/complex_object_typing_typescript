@@ -2,7 +2,7 @@
 
 *Description*: In a Typescript project, I want to re-use a function I had used in a Javascript project. This function takes a word frequency map `Map<sting,int>` and creates the object need to configure a popular component on NPM [`material_table`](https://www.npmjs.com/package/material-table)
 
-I should note that this case is of a Typescript project using an existing Javascript component. And the typing just needs to be sufficient to satisfy the component. If the original component had been developed in Typescript, the typeing approach taken below would likely have been much different.
+I should note that this case is of a Typescript project using an existing Javascript component. And the typing just needs to be sufficient to satisfy the component. The component uses a common technique that allows property names to be added to an object. I am not aware of a Typescript equivalent syntax that allows arbitrary properties to be added at any time to an object. But here I did not have to worry about that.
 
 Here is the function in full (see `example.js`):
 
