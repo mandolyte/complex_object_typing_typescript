@@ -102,7 +102,7 @@ Note also we no longer need the line `mt.data = []`, since it is now initialized
 
 ## Step 5 - options object [`example5.ts`]
 
-There are a lot of options, but the only one here was the one for sorting. However, in the new project I intend to use the `export` option, so I'll include export options in the example below.
+There are a lot of options [here](https://material-table.com/#/docs/all-props), but the only one here was the one for sorting. However, in the new project I intend to use the `export` option, so I'll include export options in the example below.
 
 Typescript has syntax for optional properties, which is what is needed for this case. To make it optional, simply affix a question mark to the attribute name.
 
